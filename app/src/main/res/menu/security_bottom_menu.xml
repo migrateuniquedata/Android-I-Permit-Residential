@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_shome"
+        android:icon="@drawable/home_blue"
+        android:title="@string/title_home" />
+
+
+    <item
+        android:id="@+id/navigation_sprofile"
+        android:icon="@drawable/user_blue"
+        android:title="@string/Profile" />
+
+    <item
+        android:id="@+id/navigation_activity"
+        android:icon="@drawable/clock_blue"
+        android:title="@string/Activity" />
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/Logout" />
+    <!--    <item-->
+<!--        android:id="@+id/navigation_community"-->
+<!--        android:icon="@drawable/community"-->
+<!--        android:title="@string/Community" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/navigation_household"-->
+<!--            android:icon="@drawable/household"-->
+<!--            android:title="@string/Household" />-->
+
+
+    <!--    <item-->
+    <!--        android:id="@+id/navigation_logout"-->
+    <!--        android:icon="@drawable/logout"-->
+    <!--        android:title="@string/Logout" />-->
+
+
+</menu>

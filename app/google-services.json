@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "248624833135",
+    "firebase_url": "https://i-permit-residential.firebaseio.com",
+    "project_id": "i-permit-residential",
+    "storage_bucket": "i-permit-residential.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248624833135:android:f2987557bfd9996480a39a",
+        "android_client_info": {
+          "package_name": "com.uniquedatacom.i_permit_res"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248624833135-du6c5pmk9fk6d0ln719a36tsjnvg0bi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq1xsjqEr9pW_1L0iKFvCnMONyzopvVzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248624833135-du6c5pmk9fk6d0ln719a36tsjnvg0bi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

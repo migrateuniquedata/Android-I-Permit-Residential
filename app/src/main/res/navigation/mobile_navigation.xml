@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_shome">
+
+    <fragment
+        android:id="@+id/navigation_shome"
+        android:name="com.uniquedatacom.i_permit_res.activities.ui.shome.SHomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_activity"
+        android:name="com.uniquedatacom.i_permit_res.activities.ui.activity.ActivityFragment"
+        android:label="@string/Activity"
+        tools:layout="@layout/fragment_activity" />
+
+    <fragment
+        android:id="@+id/navigation_sprofile"
+        android:name="com.uniquedatacom.i_permit_res.activities.ui.profile.SProfileFragment"
+        android:label="@string/Profile"
+        tools:layout="@layout/fragment_sprofile" />
+
+    <fragment
+        android:id="@+id/navigation_logout"
+        android:name="com.uniquedatacom.i_permit_res.activities.ui.community.CommunityFragment"
+        android:label="@string/Logout"
+        tools:layout="@layout/fragment_community" />
+
+
+    <!--    <fragment-->
+<!--        android:id="@+id/navigation_community"-->
+<!--        android:name="com.creativeapps.i_permit.activities.ui.community.CommunityFragment"-->
+<!--        android:label="@string/Community"-->
+<!--        tools:layout="@layout/fragment_community" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_household"-->
+<!--        android:name="com.creativeapps.i_permit.activities.ui.household.HouseholdFragment"-->
+<!--        android:label="@string/Household"-->
+<!--        tools:layout="@layout/fragment_household" />-->
+</navigation>

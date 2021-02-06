@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="android:textViewStyle">@style/AvenirBookTextViewStyle</item>-->
+<!--        <item name="android:buttonStyle">@style/AvenirBookButtonStyle</item>-->
+<!--        <item name="android:editTextStyle">@style/AvenirBookEditTextStyle</item>-->
+    </style>
+
+
+    <style name="NavActAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="android:textViewStyle">@style/AvenirBookTextViewStyle</item>-->
+<!--        <item name="android:buttonStyle">@style/AvenirBookButtonStyle</item>-->
+<!--        <item name="android:editTextStyle">@style/AvenirBookEditTextStyle</item>-->
+    </style>
+
+
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        &lt;!&ndash;        <item name="android:windowFullscreen">true</item>&ndash;&gt;-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+
+    <style name="RadioButton">
+        <!--        <item name="android:button">@drawable/customer_icon</item>-->
+        <item name="android:background">@drawable/bg_toggle_checked</item>
+        <item name="android:textColor">@color/fontcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+
+    <style name="AvenirBookTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">AvenirBook</item>
+    </style>
+    <style name="AvenirBookButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">AvenirBook</item>
+        <item name="android:height">50dp</item>
+    </style>
+
+<!--    <style name="AvenirBookEditTextStyle" parent="Widget.Design.TextInputLayout">-->
+<!--        <item name="android:fontFamily">AvenirBook</item>-->
+<!--    </style>-->
+    <style name="AvenirBookEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">AvenirBook</item>
+    </style>
+</resources>
